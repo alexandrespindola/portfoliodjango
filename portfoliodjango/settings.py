@@ -16,12 +16,10 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 LOCALHOST = config('LOCALHOST')
-RENDER = config('RENDER')
 DIGITAL_OCEAN = config('DIGITAL_OCEAN')
 
 ALLOWED_HOSTS = [
     LOCALHOST,
-    RENDER,
     DIGITAL_OCEAN,
 ]
 
