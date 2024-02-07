@@ -3634,6 +3634,7 @@ blockquote::before {
 */
 .footer__section {
   padding: 3rem 0;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -4057,24 +4058,24 @@ blockquote::before {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 6rem 0 27.5rem;
+  padding: 6rem 0 6rem;
 }
 
 @media only screen and (min-width: 768px) {
   .contact__section--bg {
-    padding: 7rem 0 28.5rem;
+    padding: 7rem 0 7rem;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .contact__section--bg {
-    padding: 8rem 0 30rem;
+    padding: 8rem 0 8rem;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .contact__section--bg {
-    padding: 10rem 0 32rem;
+    padding: 10rem 0 10rem;
   }
 }
 

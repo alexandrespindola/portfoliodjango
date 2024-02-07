@@ -2438,7 +2438,7 @@ input[type=number]::-webkit-outer-spin-button {
     3. Hero css
 */
 .hero__section--bg {
-  background: url(../img/hero/hero-section-bg.png);
+  background: url("../img/hero/hero-section-bg.0c52adf1e471.png");
 }
 
 .hero__section--inner {
@@ -2887,7 +2887,7 @@ input[type=number]::-webkit-outer-spin-button {
     home two hero css
 */
 .home2__hero--bg {
-  background: url(../img/hero/hero-section-bg2.png);
+  background: url("../img/hero/hero-section-bg2.0c52adf1e471.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3634,7 +3634,6 @@ blockquote::before {
 */
 .footer__section {
   padding: 3rem 0;
-  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -3660,7 +3659,7 @@ blockquote::before {
 }
 
 .footer__bg {
-  background: url(../img/other/footer-bg.png);
+  background: url("../img/other/footer-bg.e6f79a4e5b67.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4054,7 +4053,7 @@ blockquote::before {
     7. Contact page css 
 */
 .contact__section--bg {
-  background: url(../img/other/contact-bg.png);
+  background: url("../img/other/contact-bg.736f28cccb12.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4069,13 +4068,13 @@ blockquote::before {
 
 @media only screen and (min-width: 992px) {
   .contact__section--bg {
-    padding: 8rem 0 8rem;
+    padding: 8rem 0 30rem;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .contact__section--bg {
-    padding: 10rem 0 10rem;
+    padding: 10rem 0 32rem;
   }
 }
 
@@ -5136,7 +5135,7 @@ blockquote::before {
 }
 
 .about__section--bg {
-  background: url(../img/banner/bg-shape1.png);
+  background: url("../img/banner/bg-shape1.1fddfa15a35f.png");
 }
 
 .about__section--inner {
