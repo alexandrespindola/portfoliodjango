@@ -1,52 +1,56 @@
 {% load static %}
 
 <section
-class="portfolio__section portfolio__section--bg section--padding"
-id="portfolio"
+  class="portfolio__section portfolio__section--bg section--padding"
+  id="portfolio"
 >
-<div class="container">
-  <div
-    class="section__heading--topbar d-flex align-items-center justify-content-between mb-50"
-  >
-    <div class="section__heading max-width-580">
-      <span class="section__heading--subtitle text__secondary"
-        >PORTFOLIO</span
-      >
-      <h2 class="section__heading--title">
-        Building dynamic and interactive websites and web applications
-      </h2>
+  <div class="container">
+    <div
+      class="section__heading--topbar d-flex align-items-center justify-content-between mb-50"
+    >
+      <div class="section__heading max-width-580">
+        <span class="section__heading--subtitle text__secondary"
+          >PORTFOLIO</span
+        >
+        <h2 class="section__heading--title">
+          Building dynamic and interactive websites and web applications
+        </h2>
+      </div>
+      <div class="section__heading--right max-width-450">
+        <p class="section__heading--desc">
+          Here you will find a selection of web development projects I have
+          recently completed. Each listed item showcases my skills in various
+          technologies and programming languages, such as HTML, CSS, JavaScript,
+          frameworks like Vue and Django, and CMS like WordPress. Feel free to
+          explore each project and examine its source code.
+        </p>
+      </div>
     </div>
-    <div class="section__heading--right max-width-450">
-      <p class="section__heading--desc">
-        Here you will find a selection of web development projects I have
-        recently completed. Each listed item showcases my skills in various
-        technologies and programming languages, such as HTML, CSS,
-        JavaScript, frameworks like Vue and Django, and CMS like WordPress.
-        Feel free to explore each project and examine its source code.
-      </p>
-    </div>
-  </div>
-  <div class="portfolio__section--inner">
-    <div class="button-group filters-button-group mb-50">
-      <button
-        class="filters__button--items button is-checked"
-        data-filter="*"
-      >
-        Show All
-      </button>
-      <button class="filters__button--items button" data-filter=".web">
-        Web
-      </button>
-      <button
-        class="filters__button--items button"
-        data-filter=".development"
-      >
-        Development
-      </button>
-    </div>
+    <div class="portfolio__section--inner">
+      <div class="button-group filters-button-group mb-50">
+        <button
+          class="filters__button--items button is-checked"
+          data-filter="*"
+        >
+          Show All
+        </button>
+        <button class="filters__button--items button" data-filter=".web">
+          Web
+        </button>
+        <button
+          class="filters__button--items button"
+          data-filter=".development"
+        >
+          Development
+        </button>
 
-    {% include "app/components/template-portfolio-card.html" %}
-    
+      </div>
+      
+      <div class="portfolio__grid d-flex flex-row flex-wrap justify-content-center">
+        
+        {% include "app/containers/template-portfolio-card.html" %} 
+
+      </div>
+    </div>
   </div>
-</div>
 </section>
