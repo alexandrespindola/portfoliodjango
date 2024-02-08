@@ -2835,6 +2835,29 @@ input[type=number]::-webkit-outer-spin-button {
   }
 }
 
+.logo__positioning.three {
+  left: 2rem;
+  top: 45rem;
+}
+
+@media only screen and (min-width: 1366px) {
+  .logo__positioning.three {
+    left: -15px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .logo__positioning.three {
+    top: 35rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .logo__positioning.three {
+    top: 40rem;
+  }
+}
+
 @media only screen and (max-width: 1199px) {
   .logo__positioning img {
     max-width: 7rem;
@@ -6729,3 +6752,4 @@ blockquote::before {
 .portfolio__style2 .portfolio__desc {
   line-height: 2.4rem;
   font-size: 1.5rem;
+}

@@ -1,0 +1,114 @@
+{% load static %}
+
+<section class="testimonial__section section--padding position__relative">
+  <div class="container">
+    <div class="section__heading text-center mb-50">
+      <span class="section__heading--subtitle text__secondary"
+        >TESTIMONIALS</span
+      >
+      <h2 class="section__heading--title">What people say about me</h2>
+    </div>
+    <div class="testimonial__inner testimonial__swiper--activation swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonial__items text-center">
+            <div class="testimonial__content mb-30">
+              <ul class="rating__wrapper d-flex justify-content-center">
+                {% for _ in '12345'|make_list %}
+                    {% include 'app/components/li-rating-list.html'%}
+                {% endfor %}
+              </ul>
+              <p class="testimonial__desc">
+                "Working with Alexandre has been a game-changer. His expertise in web development and digital marketing has significantly improved our online presence. He's professional, reliable, and highly skilled."
+              </p>
+            </div>
+            <div class="testimonial__author">
+              <img
+                class="testimonial__author--media"
+                src="{% static 'app/assets/img/other/testimonial-author-thumb.webp' %}"
+                alt="img"
+              />
+              <h3 class="testimonial__author--title">Lucas Soares</h3>
+              <span class="testimonial__author--subtitle">Project Coordinator</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial__items text-center">
+            <div class="testimonial__content mb-30">
+              <ul class="rating__wrapper d-flex justify-content-center">
+                {% for _ in '12345'|make_list %}
+                    {% include 'app/components/li-rating-list.html'%}
+                {% endfor %}
+              </ul>
+              <p class="testimonial__desc">
+                "Alexandre's skills in web development and digital marketing are top-notch. He has helped us streamline our online strategies and improve our web interface. His work is always timely and of high quality." 
+              </p>
+            </div>
+            <div class="testimonial__author">
+              <img
+                class="testimonial__author--media"
+                src="{% static 'app/assets/img/other/testimonial-author-thumb2.webp' %}"
+                alt="img"
+              />
+              <h3 class="testimonial__author--title">Beatriz Fonseca</h3>
+              <span class="testimonial__author--subtitle">Marketing Manager</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial__items text-center">
+            <div class="testimonial__content mb-30">
+              <ul class="rating__wrapper d-flex justify-content-center">
+                {% for _ in '12345'|make_list %}
+                    {% include 'app/components/li-rating-list.html'%}
+                {% endfor %}
+              </ul>
+              <p class="testimonial__desc">
+                “Alexandre's web skills are impressive. A true professional.Our website improved significantly."
+              </p>
+            </div>
+            <div class="testimonial__author">
+              <img
+                class="testimonial__author--media"
+                src="{% static 'app/assets/img/other/testimonial-author-thumb3.webp' %}"
+                alt="img"
+              />
+              <h3 class="testimonial__author--title">Michael O'Neal</h3>
+              <span class="testimonial__author--subtitle">Product Manager</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial__pagination swiper-pagination"></div>
+    </div>
+  </div>
+  <span class="testimonial__position--icon left">
+    <svg
+      width="260"
+      height="260"
+      fill="currentColor"
+      stroke="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 448 512"
+    >
+      <path
+        d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"
+      ></path>
+    </svg>
+  </span>
+  <span class="testimonial__position--icon right">
+    <svg
+      width="260"
+      height="260"
+      fill="currentColor"
+      stroke="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 448 512"
+    >
+      <path
+        d="M448 296c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H320c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72zm-256 0c0 66.3-53.7 120-120 120H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72z"
+      ></path>
+    </svg>
+  </span>
+</section>
