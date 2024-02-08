@@ -52,7 +52,13 @@
 
   <body class="bg-dark_primary_bg">
 
+    <!-- Start header area -->
     {% include 'app/containers/header.html' %}
+    <!-- End header area -->
+
+    <!-- Start Offcanvas header menu -->
+    {% include 'app/containers/offcanvas-header.html' %}
+    <!-- End Offcanvas header menu -->
 
     <!-- Preloader start -->
     {% include 'app/components/preloader.html' %}
@@ -62,8 +68,9 @@
     {% include 'app/components/button-light-dark.html' %}
     <!-- End button light-dark -->
     
-    
+    <!-- Start content page -->
     {% block content %}{% endblock %}
+    <!-- End content page -->
 
     {% include 'app/containers/footer.html' %}
     
