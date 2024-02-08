@@ -48,7 +48,7 @@
 
 /* dark hero section css */
 .dark .hero__section--bg{
-    background: url(../img/hero/hero-bg-img-dark.webp);
+    background: url(../img/hero/home2-hero-bg-dark.png);
     border-bottom: 1px solid var(--bg-black-color);
 }
 

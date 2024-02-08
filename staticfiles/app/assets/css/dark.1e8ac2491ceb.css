@@ -48,7 +48,7 @@
 
 /* dark hero section css */
 .dark .hero__section--bg{
-    background: url(../img/hero/home2-hero-bg-dark.png);
+    background: url("../img/hero/hero-bg-img-dark.70a6c4ba80d7.webp");
     border-bottom: 1px solid var(--bg-black-color);
 }
 
@@ -71,7 +71,7 @@
     background: var(--bg-black-color);
 }
 .dark .home2__hero--bg{
-    background: url(../img/hero/home2-hero-bg-dark.png);
+    background: url("../img/hero/home2-hero-bg-dark.ef42380d6e63.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -152,7 +152,7 @@
 
 /* contact dark css */
 .dark .contact__section--bg{
-    background: url(../img/other/contact-bg-dark.png);
+    background: url("../img/other/contact-bg-dark.049d6606f1a6.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -181,7 +181,7 @@
 
 /* footer dark css */
 .dark .footer__bg{
-    background: url(../img/other/footer-bg-dark.png);
+    background: url("../img/other/footer-bg-dark.afb165c8a8f1.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
