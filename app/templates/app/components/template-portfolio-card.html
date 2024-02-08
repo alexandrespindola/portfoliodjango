@@ -1,0 +1,42 @@
+
+{% for case in cases %}
+<div class="element-item {{ case.data_category }}" data-category="{{ case.data_category }}">
+  <div class="portfolio__card">
+    <a
+      href="#"
+      class="popup-modal--open display-block"
+      data-bs-toggle="modal"
+      data-bs-target="#{{ case.custom_id }}"
+    >
+      <div class="portfolio__image--card">
+        <img
+          src="{{ case.card_img_url }}"
+          alt="img"
+        />
+      </div>
+      <div class="portfolio__content">
+        <span class="portfolio__zoom text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-maximize"
+          >
+            <path
+              d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"
+            ></path>
+          </svg>
+        </span>
+        <h3 class="portfolio__title text-white">{{ case.title }}</h3>
+        <p class="portfolio__desc text-white">{{ case.short_description }}</p>
+      </div>
+    </a>
+  </div>
+</div>
+{% endfor %}
