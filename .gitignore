@@ -3,5 +3,14 @@ npm-debug.log
 logs/
 .sass-cache/
 .DS_Store
-.gz
+*.gz
 supabase/
+staticfiles.json
+
+staticfiles/**/*.*.css
+staticfiles/**/*.*.png
+staticfiles/**/*.*.ico
+staticfiles/**/*.*.js
+staticfiles/**/*.*.pdf
+staticfiles/**/*.*.webp
+staticfiles/**/*.*.jpg
