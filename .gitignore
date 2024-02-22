@@ -1,16 +1,61 @@
-.env
-npm-debug.log
-logs/
-.sass-cache/
-.DS_Store
-*.gz
-supabase/
-staticfiles.json
+    # Python
+    __pycache__/
+    *.py[cod]
+    venv/
 
-staticfiles/**/*.*.css
-staticfiles/**/*.*.png
-staticfiles/**/*.*.ico
-staticfiles/**/*.*.js
-staticfiles/**/*.*.pdf
-staticfiles/**/*.*.webp
-staticfiles/**/*.*.jpg
+    # Logs
+    *.log
+    logs/
+
+    # IDEs
+    .idea/
+
+    # Environment
+    .env
+
+    # Node
+    node_modules/
+    npm-debug.log
+    package-lock.json
+
+    # Sass
+    .sass-cache/
+
+    # System files
+    .DS_Store
+    *.gz
+
+    # Supabase
+    supabase/
+
+    # Static files
+    staticfiles/**/*.*.scss
+    staticfiles/**/*.*.css
+    staticfiles/**/*.*.css.map
+    staticfiles/**/*.*.js
+    staticfiles/**/*.*.png
+    staticfiles/**/*.*.svg
+    staticfiles/**/*.*.ico
+    staticfiles/**/*.*.txt
+    staticfiles/**/*.*.svg
+    staticfiles/**/*.*.pdf
+    staticfiles/**/*.*.jpg
+    staticfiles/**/*.*.jpeg
+    staticfiles/**/*.*.gif
+    staticfiles/**/*.*.webp
+
+    # Exceptions
+    !staticfiles/**/*.css
+    !staticfiles/**/*.css.map
+    !staticfiles/**/*.js
+    !staticfiles/**/*.png
+    !staticfiles/**/*.svg
+    !staticfiles/**/*.ico
+    !staticfiles/**/*.txt
+    !staticfiles/**/*.svg
+    !staticfiles/**/*.pdf
+    !staticfiles/**/*.jpg
+    !staticfiles/**/*.jpeg
+    !staticfiles/**/*.gif
+    !staticfiles/**/*.webp
+    !staticfiles/**/*.scss   
