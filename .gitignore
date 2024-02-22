@@ -29,33 +29,5 @@
     supabase/
 
     # Static files
-    staticfiles/**/*.*.scss
-    staticfiles/**/*.*.css
-    staticfiles/**/*.*.css.map
-    staticfiles/**/*.*.js
-    staticfiles/**/*.*.png
-    staticfiles/**/*.*.svg
-    staticfiles/**/*.*.ico
-    staticfiles/**/*.*.txt
-    staticfiles/**/*.*.svg
-    staticfiles/**/*.*.pdf
-    staticfiles/**/*.*.jpg
-    staticfiles/**/*.*.jpeg
-    staticfiles/**/*.*.gif
-    staticfiles/**/*.*.webp
 
-    # Exceptions
-    !staticfiles/**/*.css
-    !staticfiles/**/*.css.map
-    !staticfiles/**/*.js
-    !staticfiles/**/*.png
-    !staticfiles/**/*.svg
-    !staticfiles/**/*.ico
-    !staticfiles/**/*.txt
-    !staticfiles/**/*.svg
-    !staticfiles/**/*.pdf
-    !staticfiles/**/*.jpg
-    !staticfiles/**/*.jpeg
-    !staticfiles/**/*.gif
-    !staticfiles/**/*.webp
-    !staticfiles/**/*.scss   
+    # Exceptions  
