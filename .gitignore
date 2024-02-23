@@ -1,46 +1,46 @@
-    # Python
-    __pycache__/
-    *.py[cod]
-    venv/
+# Python
+__pycache__/
+*.py[cod]
+venv/
 
-    # Logs
-    *.log
-    logs/
+# Logs
+*.log
+logs/
 
-    # IDEs
-    .idea/
+# IDEs
+.idea/
 
-    # Environment
-    .env
+# Environment
+.env
 
-    # Node
-    node_modules/
-    npm-debug.log
-    package-lock.json
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
 
-    # Sass
-    .sass-cache/
+# Sass
+.sass-cache/
 
-    # System files
-    .DS_Store
-    *.gz
+# System files
+.DS_Store
+*.gz
 
-    # Supabase
-    supabase/
+# Supabase
+supabase/
 
-    # Static files
-    staticfiles/**/*.scss
-    staticfiles/**/*.*.scss
-    staticfiles/**/*.*.css
-    staticfiles/**/*.*.png
-    staticfiles/**/*.*.svg
-    staticfiles/**/*.*.ico
-    staticfiles/**/*.*.txt
-    staticfiles/**/*.*.svg
-    staticfiles/**/*.*.pdf
-    staticfiles/**/*.*.jpg
-    staticfiles/**/*.*.jpeg
-    staticfiles/**/*.*.gif
-    staticfiles/**/*.*.webp
+# Static files
+staticfiles/**/*.scss
+staticfiles/**/*.*.scss
+staticfiles/**/*.*.css
+staticfiles/**/*.*.png
+staticfiles/**/*.*.svg
+staticfiles/**/*.*.ico
+staticfiles/**/*.*.txt
+staticfiles/**/*.*.svg
+staticfiles/**/*.*.pdf
+staticfiles/**/*.*.jpg
+staticfiles/**/*.*.jpeg
+staticfiles/**/*.*.gif
+staticfiles/**/*.*.webp
 
-    # Exceptions  
+# Exceptions  
