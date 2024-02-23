@@ -1,0 +1,27 @@
+{% extends 'app/base.html' %} {% load static %} {% block title %} Message sent
+successfully {% endblock %} {% block content %}
+
+<main class="main__content_wrapper h-auto">
+  <section
+    class="portfolio__section portfolio__section--bg section--padding d-flex align-items-center"
+    style="min-height: 85vh"
+  >
+    <div class="container">
+      <div
+        class="d-flex flex-column d-flex align-items-center justify-content-center gap-5"
+      >
+        <span class="section__heading--subtitle text__secondary"
+          >THANK YOU!</span
+        >
+        <h1 class="section__heading--title text-center">
+          Your message has been sent successfully.<br />
+        </h1>
+        <p class="section__heading--desc">
+          Soon you will receive a response from us.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+{% endblock %}

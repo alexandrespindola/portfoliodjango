@@ -13,31 +13,19 @@
             <p class="section__heading--desc">
               I'm ready to collaborate on your next project.
             </p>
-            {% comment %}
-            <form class="contact__form" action="#">
+            <form class="contact__form" method="post" action="">
+              {% csrf_token %}
               <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                  <input
-                    class="contact__input--field"
-                    placeholder="Name"
-                    type="text"
-                  />
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                  <input
-                    class="contact__input--field"
-                    placeholder="Email"
-                    type="text"
-                  />
-                </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
+                      <input class="contact__input--field" placeholder="Name" type="text" name="{{ form.name.name }}" value="{{ form.name.value|default:'' }}" />
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
+                      <input class="contact__input--field" placeholder="Email" type="text" name="{{ form.email.name }}" value="{{ form.email.value|default:'' }}" />
+                  </div>
               </div>
-              <textarea
-                class="contact__textarea--field"
-                placeholder="Message"
-              ></textarea>
+              <textarea class="contact__textarea--field" placeholder="Message" name="{{ form.message.name }}">{{ form.message.value|default:'' }}</textarea>
               <button class="contact__button primary__btn">Send Message</button>
-            </form>
-            {% endcomment %}
+          </form>
           </div>
         </div>
       </div>
