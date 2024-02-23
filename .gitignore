@@ -29,5 +29,18 @@
     supabase/
 
     # Static files
+    staticfiles/**/*.scss
+    staticfiles/**/*.*.scss
+    staticfiles/**/*.*.css
+    staticfiles/**/*.*.png
+    staticfiles/**/*.*.svg
+    staticfiles/**/*.*.ico
+    staticfiles/**/*.*.txt
+    staticfiles/**/*.*.svg
+    staticfiles/**/*.*.pdf
+    staticfiles/**/*.*.jpg
+    staticfiles/**/*.*.jpeg
+    staticfiles/**/*.*.gif
+    staticfiles/**/*.*.webp
 
     # Exceptions  
