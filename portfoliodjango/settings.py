@@ -16,13 +16,11 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 LOCALHOST = config('LOCALHOST')
-DIGITAL_OCEAN = config('DIGITAL_OCEAN')
 HEROKU = config('HEROKU')
 CUSTOM_DOMAIN = config('CUSTOM_DOMAIN')
 
 ALLOWED_HOSTS = [
     LOCALHOST,
-    DIGITAL_OCEAN,
     CUSTOM_DOMAIN,
     HEROKU
 ]
