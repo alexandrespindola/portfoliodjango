@@ -5,7 +5,6 @@ from decouple import config
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -17,12 +16,14 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 LOCALHOST = config('LOCALHOST')
 DIGITAL_OCEAN = config('DIGITAL_OCEAN')
+HEROKU = config('HEROKU')
 CUSTOM_DOMAIN = config('CUSTOM_DOMAIN')
 
 ALLOWED_HOSTS = [
     LOCALHOST,
     DIGITAL_OCEAN,
     CUSTOM_DOMAIN,
+    HEROKU
 ]
 
 
