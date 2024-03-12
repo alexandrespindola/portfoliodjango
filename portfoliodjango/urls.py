@@ -7,5 +7,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     path('thank-you-contact/', views.thank_you_contact, name='thank-you-contact'),
-
+    path('captcha/', include('captcha.urls')),
 ]
