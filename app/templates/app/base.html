@@ -45,7 +45,7 @@
     <meta property="og:url" content="https://spindola.engineer" />
     <meta
       property="og:image"
-      content="https://spindola.engineer/static/app/assets/img/thumb/thumb.webp"
+      <meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}/static/app/assets/img/thumb/thumb.webp" />
     />
 
     <!-- ======= All CSS Plugins here ======== -->
