@@ -6,7 +6,7 @@ class ContactForm(forms.ModelForm):
 
     class Meta:
         model = Contact
-        fields = ['name', 'email', 'message', 'honeypot', 'captcha']
+        fields = ['name', 'email', 'message', 'honeypot']
 
     def clean_honeypot(self):
         honeypot = self.cleaned_data['honeypot']
